@@ -1,1 +1,23 @@
-clock_index
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>時計クイズ</title>
+  <link rel="stylesheet" href="clock_style.css" />
+</head>
+<body>
+  <h1>🕒 時計クイズで花を育てよう！</h1>
+  <div id="question-container">
+    <p id="question-text">ここに問題が表示されます</p>
+    <div id="choices"></div>
+  </div>
+  <button id="next-button">次の問題へ</button>
+  <div id="reward-status">
+    <p>🌼 育てた花: <span id="flower-count">0</span></p>
+    <p>💰 コイン: <span id="coin-count">0</span></p>
+  </div>
+
+  <script src="clock_questions.js"></script>
+  <script src="clock_script.js"></script>
+</body>
+</html>
